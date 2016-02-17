@@ -15,6 +15,8 @@ public class Main : MonoBehaviour {
 	public Color gongedColor;
 	public Color goodColor;
 
+	// this is a comment just to add something to the file
+
 	private AudioSource[] allAudioSources;
 	void Awake ()
 	{
