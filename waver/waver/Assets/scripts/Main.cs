@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
 
@@ -7,6 +7,7 @@ public class Main : MonoBehaviour {
 	public Text timerText;
 	[HideInInspector]
 	public float timer;
+	public float testGit;
 	private bool timerActive = false;
 
 	public static System.Action<string> StopTimerEvent;
